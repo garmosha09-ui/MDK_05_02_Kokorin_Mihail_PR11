@@ -23,6 +23,15 @@ namespace TimeLord_Кокорин
         public MainWindow()
         {
             InitializeComponent();
+            OpenPages(Pages.stopwatch);
+        }
+        public enum pages
+        {
+            stopwatch
+        }
+        public void OpenPages(pages _page)
+        {
+            if(_page == pages.stopwatch) frame.Navigate(new Pages.Stopwatch());
         }
     }
 }
