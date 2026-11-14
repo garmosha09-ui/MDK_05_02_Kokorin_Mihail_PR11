@@ -23,7 +23,7 @@ namespace TimeLord_Кокорин
         public MainWindow()
         {
             InitializeComponent();
-            OpenPages(Pages.stopwatch);
+            OpenPages(pages.stopwatch);
         }
         public enum pages
         {
